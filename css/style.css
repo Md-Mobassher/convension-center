@@ -21,3 +21,13 @@ body{
     margin-top: -40px;
     padding: 100px 10px ;
 }
+.hot::before{
+    content: 'Hot';
+    color: white;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 15px;
+    position: relative;
+    left: 140px;
+    top: -65px;
+}
